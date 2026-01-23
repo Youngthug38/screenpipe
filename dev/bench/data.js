@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769158206292,
+  "lastUpdate": 1769158837710,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1139,6 +1139,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2579269541,
             "range": "± 344323746",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "86912ee577043b0d3b1ecea104b9199ad8a3dabe",
+          "message": "ci: full release-app workflow with vcpkg and ffmpeg fixes",
+          "timestamp": "2026-01-23T09:44:18+01:00",
+          "tree_id": "17f370d31251b626af619d1216d113c519bf2bbb",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/86912ee577043b0d3b1ecea104b9199ad8a3dabe"
+        },
+        "date": 1769158837084,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4037387938,
+            "range": "± 230038627",
             "unit": "ns/iter"
           }
         ]
