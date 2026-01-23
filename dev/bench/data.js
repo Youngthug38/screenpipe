@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769159669556,
+  "lastUpdate": 1769159972694,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1319,6 +1319,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4364778499,
             "range": "± 905103951",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "01d94c71eff286a482a74960610d8c0dcb45cedd",
+          "message": "ci: fix linux config read, ocr recognition, and window capture errorsV2",
+          "timestamp": "2026-01-23T10:09:18+01:00",
+          "tree_id": "070f998382fd619030e02c04be0ba004103afd29",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/01d94c71eff286a482a74960610d8c0dcb45cedd"
+        },
+        "date": 1769159971420,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2472849083,
+            "range": "± 239735991",
             "unit": "ns/iter"
           }
         ]
