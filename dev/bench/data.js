@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769152917794,
+  "lastUpdate": 1769153104076,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -479,6 +479,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3564704896,
             "range": "± 625493239",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "1f89196640073b51ac4bee702040af6614afbb1f",
+          "message": "ci: fix linux display dependencies and force log creation",
+          "timestamp": "2026-01-23T08:09:47+01:00",
+          "tree_id": "84566cdb15e43d7cf4357923404122567c3cb902",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/1f89196640073b51ac4bee702040af6614afbb1f"
+        },
+        "date": 1769153103342,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3798881749,
+            "range": "± 893211097",
             "unit": "ns/iter"
           }
         ]
