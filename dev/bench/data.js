@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769148497527,
+  "lastUpdate": 1769151026133,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -179,6 +179,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4908371416,
             "range": "± 865885536",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "708bee2a860661f5dea1659d2cc86d6f93ea5eba",
+          "message": "ci: fix ubuntu benchmark deps and github token permissions",
+          "timestamp": "2026-01-23T07:38:17+01:00",
+          "tree_id": "104f67b9f9446da8ab6630d899fb9d81dff42c99",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/708bee2a860661f5dea1659d2cc86d6f93ea5eba"
+        },
+        "date": 1769151025680,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3312638396,
+            "range": "± 884898829",
             "unit": "ns/iter"
           }
         ]
