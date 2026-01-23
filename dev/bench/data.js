@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769158837710,
+  "lastUpdate": 1769159001354,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1169,6 +1169,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4037387938,
             "range": "± 230038627",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "a526a7f66e9cf66c9bd2c9dde55ab88f30a46522",
+          "message": "ci: ensure vcpkg submodules are initialized and bootstrapped",
+          "timestamp": "2026-01-23T09:47:59+01:00",
+          "tree_id": "08759c8171e4e12cb9e525d737de70979dfc1ee6",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/a526a7f66e9cf66c9bd2c9dde55ab88f30a46522"
+        },
+        "date": 1769159000283,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4092429667,
+            "range": "± 815936096",
             "unit": "ns/iter"
           }
         ]
