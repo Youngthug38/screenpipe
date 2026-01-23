@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769151747533,
+  "lastUpdate": 1769151953557,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -299,6 +299,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4157234208,
             "range": "± 804617488",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "f179f5f2e9cd2ad9b1ce51013168246f41287944",
+          "message": "ci: fix tauri executable path in e2e",
+          "timestamp": "2026-01-23T07:54:52+01:00",
+          "tree_id": "37b0f1e748119f6a307e0ce488efe64674e70540",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/f179f5f2e9cd2ad9b1ce51013168246f41287944"
+        },
+        "date": 1769151952534,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2606336875,
+            "range": "± 279051053",
             "unit": "ns/iter"
           }
         ]
