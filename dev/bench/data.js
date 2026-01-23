@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769157607465,
+  "lastUpdate": 1769158206292,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1109,6 +1109,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3772887541,
             "range": "± 949345566",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "a33ac59b7ef26e9a6e94ab7a065393c3d91ffbc6",
+          "message": "ci: fix vcpkg path and bypass dead ffmpeg link",
+          "timestamp": "2026-01-23T09:38:22+01:00",
+          "tree_id": "19f8c01ad4f6d720ff2e4271e8ab7ec7a2b4b13f",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/a33ac59b7ef26e9a6e94ab7a065393c3d91ffbc6"
+        },
+        "date": 1769158205190,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2579269541,
+            "range": "± 344323746",
             "unit": "ns/iter"
           }
         ]
