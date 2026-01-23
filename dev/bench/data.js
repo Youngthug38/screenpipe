@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769151721547,
+  "lastUpdate": 1769151747533,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -269,6 +269,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2852762229,
             "range": "± 327841738",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "9a93dbf26ce4a0d9001731a5412f5ff4b4796cbf",
+          "message": "ci: add vcpkg and pre-create log file to prevent artifact fail",
+          "timestamp": "2026-01-23T07:47:13+01:00",
+          "tree_id": "b90c3343d32e767993c265846d25a1f74a76d12a",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/9a93dbf26ce4a0d9001731a5412f5ff4b4796cbf"
+        },
+        "date": 1769151746526,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4157234208,
+            "range": "± 804617488",
             "unit": "ns/iter"
           }
         ]
