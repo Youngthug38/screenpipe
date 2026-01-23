@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769151026133,
+  "lastUpdate": 1769151704484,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -209,6 +209,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3312638396,
             "range": "± 884898829",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "e2b44944d0cbafa029c9f73a07bdd75d18920bc8",
+          "message": "ci: fix windows e2e deps and force log uploads",
+          "timestamp": "2026-01-23T07:42:41+01:00",
+          "tree_id": "fc3c3ec420430a90034ee3e7636cadc91d1ae36a",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/e2b44944d0cbafa029c9f73a07bdd75d18920bc8"
+        },
+        "date": 1769151703460,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4921301458,
+            "range": "± 960914493",
             "unit": "ns/iter"
           }
         ]
