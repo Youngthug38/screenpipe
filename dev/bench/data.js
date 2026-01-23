@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769153104076,
+  "lastUpdate": 1769153452313,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -509,6 +509,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3798881749,
             "range": "± 893211097",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "90bfe98606d974f8f7290e4458a9601b929abb8c",
+          "message": "ci: skip screenpipe setup to bypass ffmpeg 404",
+          "timestamp": "2026-01-23T08:13:33+01:00",
+          "tree_id": "4d0ee2f17804103da0ea6978e0a1d8ad0f27b750",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/90bfe98606d974f8f7290e4458a9601b929abb8c"
+        },
+        "date": 1769153451827,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3872369812,
+            "range": "± 239924016",
             "unit": "ns/iter"
           }
         ]
