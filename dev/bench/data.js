@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769157468892,
+  "lastUpdate": 1769157607465,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1079,6 +1079,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3687488437,
             "range": "± 893369813",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "e3182fb6088efe86e1af7ef3b034113a8b5053cc",
+          "message": "ci: hardened window detection and fixed benchmark syntax",
+          "timestamp": "2026-01-23T09:27:15+01:00",
+          "tree_id": "9f7e3cd1f082b54b381c83b10aa3bc9f155b832f",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/e3182fb6088efe86e1af7ef3b034113a8b5053cc"
+        },
+        "date": 1769157606388,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3772887541,
+            "range": "± 949345566",
             "unit": "ns/iter"
           }
         ]
