@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769155571698,
+  "lastUpdate": 1769155616643,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -839,6 +839,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4006911291,
             "range": "± 1037026350",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "d6306636f838290d31edb0df2c3b53fcd3cc583f",
+          "message": "ci: fix ocr and headless failures with fonts, locales, and xterm",
+          "timestamp": "2026-01-23T08:54:14+01:00",
+          "tree_id": "f9f30d27ffd82c9308a92cdaf26cf3e2d4207415",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/d6306636f838290d31edb0df2c3b53fcd3cc583f"
+        },
+        "date": 1769155616166,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3549593542,
+            "range": "± 796630286",
             "unit": "ns/iter"
           }
         ]
