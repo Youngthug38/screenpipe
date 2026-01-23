@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769154263262,
+  "lastUpdate": 1769154546716,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -689,6 +689,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3401622250,
             "range": "± 445255392",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "52aedb9b4e69617d84c46dd61a6a964d92a722a4",
+          "message": "ci: fix ubuntu test targets, windows audio math, and macos cmake",
+          "timestamp": "2026-01-23T08:37:12+01:00",
+          "tree_id": "4b8e3be4a85e2aa2b8d1a404ad0e3d3c56b96d87",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/52aedb9b4e69617d84c46dd61a6a964d92a722a4"
+        },
+        "date": 1769154546059,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3272719437,
+            "range": "± 902811303",
             "unit": "ns/iter"
           }
         ]
