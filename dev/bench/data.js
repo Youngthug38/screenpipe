@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769156188776,
+  "lastUpdate": 1769156223120,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -929,6 +929,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3304457791,
             "range": "± 491689671",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "f9b1750a561365bcd67cacb0a4e07e96ca7f46d3",
+          "message": "ci: force re-run of linux integration tests with xterm and fonts",
+          "timestamp": "2026-01-23T09:06:25+01:00",
+          "tree_id": "6eb884a47e084e278f876caa1893b9ae5ce51d0a",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/f9b1750a561365bcd67cacb0a4e07e96ca7f46d3"
+        },
+        "date": 1769156222476,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2814085437,
+            "range": "± 431800642",
             "unit": "ns/iter"
           }
         ]
