@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769156444222,
+  "lastUpdate": 1769156747154,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -989,6 +989,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2670361604,
             "range": "± 212202347",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "577e780f102ecd412be7330a7ab160a304428229",
+          "message": "ci: stabilize xterm window detection for ocr",
+          "timestamp": "2026-01-23T09:12:39+01:00",
+          "tree_id": "be5c9c7484c197d5a7fbea2433f445891866a883",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/577e780f102ecd412be7330a7ab160a304428229"
+        },
+        "date": 1769156746126,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2850344645,
+            "range": "± 907903120",
             "unit": "ns/iter"
           }
         ]
