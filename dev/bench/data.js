@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769159657249,
+  "lastUpdate": 1769159669556,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1289,6 +1289,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3151572375,
             "range": "± 659773188",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "72fd9217226258ef714d8d505eca903b6da259aa",
+          "message": "ci: fix ocr and compound_text errors with virtual desktop hardening",
+          "timestamp": "2026-01-23T09:53:08+01:00",
+          "tree_id": "97381e6cc58d07ce658086c70564ec6b32171ece",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/72fd9217226258ef714d8d505eca903b6da259aa"
+        },
+        "date": 1769159668481,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4364778499,
+            "range": "± 905103951",
             "unit": "ns/iter"
           }
         ]
