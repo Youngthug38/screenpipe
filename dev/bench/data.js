@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769151953557,
+  "lastUpdate": 1769152380085,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -329,6 +329,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2606336875,
             "range": "± 279051053",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "cbe047e4260f7c4b27cc11731b9b38213327e0eb",
+          "message": "ci: fix linux virtual display and audio dummy drivers",
+          "timestamp": "2026-01-23T07:57:01+01:00",
+          "tree_id": "dcd01f25978cd7779757f66e9a625980cd9bd373",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/cbe047e4260f7c4b27cc11731b9b38213327e0eb"
+        },
+        "date": 1769152379600,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3943131333,
+            "range": "± 585775692",
             "unit": "ns/iter"
           }
         ]
