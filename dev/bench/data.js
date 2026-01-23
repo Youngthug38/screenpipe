@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769152428900,
+  "lastUpdate": 1769152507941,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -389,6 +389,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3359877667,
             "range": "± 602549991",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "56953cef6ce65664a2ea72ba4027805eac810903",
+          "message": "ci: fix tauri path and force log creation",
+          "timestamp": "2026-01-23T08:02:22+01:00",
+          "tree_id": "6392bacc1a2d63b50a2d53f4280a5d4d177e61ab",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/56953cef6ce65664a2ea72ba4027805eac810903"
+        },
+        "date": 1769152507252,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4181948500,
+            "range": "± 709423992",
             "unit": "ns/iter"
           }
         ]
