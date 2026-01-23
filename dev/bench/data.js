@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769159972694,
+  "lastUpdate": 1769160216183,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1349,6 +1349,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2472849083,
             "range": "± 239735991",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a22e12e1ff971c7589922815439ce341c1093524",
+          "message": "Refactor Linux integration test workflow",
+          "timestamp": "2026-01-23T10:12:21+01:00",
+          "tree_id": "ea56fdc9153dc0c56a8433426008a84c44628fd7",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/a22e12e1ff971c7589922815439ce341c1093524"
+        },
+        "date": 1769160215512,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2709391458,
+            "range": "± 138034547",
             "unit": "ns/iter"
           }
         ]
