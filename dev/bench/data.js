@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769153465658,
+  "lastUpdate": 1769153724133,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -569,6 +569,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3643234937,
             "range": "± 1021894153",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "8a0e3b7ad5fbc4b9b26eb05597a2e58894d2adf4",
+          "message": "ci: add libssl-dev to ubuntu benchmark to fix 101 panic",
+          "timestamp": "2026-01-23T08:23:08+01:00",
+          "tree_id": "8159d13bf4e8e90205c1156f0de89cd6362b4ff5",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/8a0e3b7ad5fbc4b9b26eb05597a2e58894d2adf4"
+        },
+        "date": 1769153723612,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2874288145,
+            "range": "± 305576710",
             "unit": "ns/iter"
           }
         ]
