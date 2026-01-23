@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769152380085,
+  "lastUpdate": 1769152428900,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -359,6 +359,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3943131333,
             "range": "± 585775692",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "39f3dd6787d348e4c42ba28f87cc5ddc98cb05dc",
+          "message": "ci: align standard ci suite dependencies with benchmarks",
+          "timestamp": "2026-01-23T07:59:08+01:00",
+          "tree_id": "fbcde9f04844c1c211a12b72c60c9b2a523e2339",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/39f3dd6787d348e4c42ba28f87cc5ddc98cb05dc"
+        },
+        "date": 1769152428190,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3359877667,
+            "range": "± 602549991",
             "unit": "ns/iter"
           }
         ]
