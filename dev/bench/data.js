@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769159001354,
+  "lastUpdate": 1769159205502,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1199,6 +1199,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4092429667,
             "range": "± 815936096",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "933bd10744ebaef4c6a6e9fa98d53ec8c51c049d",
+          "message": "ci: fix 101 panics by skipping display-dependent tests",
+          "timestamp": "2026-01-23T09:51:13+01:00",
+          "tree_id": "3852e8469caf24538b08764d6ce0ca79b23d86f2",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/933bd10744ebaef4c6a6e9fa98d53ec8c51c049d"
+        },
+        "date": 1769159204352,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4048186500,
+            "range": "± 1117012865",
             "unit": "ns/iter"
           }
         ]
