@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769156095237,
+  "lastUpdate": 1769156188776,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -899,6 +899,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3275745958,
             "range": "± 613999915",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "aea408b16ff3b1c7b2ec96b0d43f3f6050a8453d",
+          "message": "ci: fix ocr by switching to xterm and stabilizing locales/fonts",
+          "timestamp": "2026-01-23T08:58:15+01:00",
+          "tree_id": "6c501dc12dc3ca2a103badfb9e5b633b51543fdf",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/aea408b16ff3b1c7b2ec96b0d43f3f6050a8453d"
+        },
+        "date": 1769156188313,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3304457791,
+            "range": "± 491689671",
             "unit": "ns/iter"
           }
         ]
