@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769152752240,
+  "lastUpdate": 1769152917794,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -449,6 +449,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4429193937,
             "range": "± 703139404",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "3c8941cb9f0c845fab413707c21cdf3b6aa956f9",
+          "message": "ci: harden linux virtual display and pre-create log file",
+          "timestamp": "2026-01-23T08:06:59+01:00",
+          "tree_id": "21ec3946d70966bf57a056576f836d305ce54cf1",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/3c8941cb9f0c845fab413707c21cdf3b6aa956f9"
+        },
+        "date": 1769152916733,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3564704896,
+            "range": "± 625493239",
             "unit": "ns/iter"
           }
         ]
