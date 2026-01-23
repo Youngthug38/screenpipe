@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769159555492,
+  "lastUpdate": 1769159657249,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1259,6 +1259,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2488417229,
             "range": "± 203566730",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "16eb5965e0c3803904c138d461f17310e1b04bb9",
+          "message": "ci: fix linux config, ocr, and audio device errors",
+          "timestamp": "2026-01-23T09:57:20+01:00",
+          "tree_id": "d638dc2cf282bf1bbb0ff82739e70c2396afb883",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/16eb5965e0c3803904c138d461f17310e1b04bb9"
+        },
+        "date": 1769159656135,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3151572375,
+            "range": "± 659773188",
             "unit": "ns/iter"
           }
         ]
