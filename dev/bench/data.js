@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769155198920,
+  "lastUpdate": 1769155493919,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -779,6 +779,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3604886771,
             "range": "± 1207500517",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "4a479a9b0da3b22e4435df357b4c0656d621e097",
+          "message": "ci: stabilize linux window detection with xwininfo and xdotool",
+          "timestamp": "2026-01-23T08:48:11+01:00",
+          "tree_id": "259b993a5aa18593b116619329173b15f263dca5",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/4a479a9b0da3b22e4435df357b4c0656d621e097"
+        },
+        "date": 1769155493408,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3715103229,
+            "range": "± 602610731",
             "unit": "ns/iter"
           }
         ]
