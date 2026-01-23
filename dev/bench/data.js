@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769154546716,
+  "lastUpdate": 1769155005484,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -719,6 +719,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3272719437,
             "range": "± 902811303",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "a043725e67227fc879f71d2cfd2b53b56a5f34b8",
+          "message": "ci: add libdbus and skip failing headless tests",
+          "timestamp": "2026-01-23T08:44:12+01:00",
+          "tree_id": "9bff512a21f836bca7497612e426e975f17ccab0",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/a043725e67227fc879f71d2cfd2b53b56a5f34b8"
+        },
+        "date": 1769155004906,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4515359458,
+            "range": "± 841406429",
             "unit": "ns/iter"
           }
         ]
