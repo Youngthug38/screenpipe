@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769153452313,
+  "lastUpdate": 1769153465658,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -539,6 +539,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3872369812,
             "range": "± 239924016",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "96c20e16c48200202f019792bac4581346392ef1",
+          "message": "ci: add dummy window with text for linux ocr test",
+          "timestamp": "2026-01-23T08:16:03+01:00",
+          "tree_id": "73220d8b4268579a29c622a5cdcc69e41aa20c61",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/96c20e16c48200202f019792bac4581346392ef1"
+        },
+        "date": 1769153465138,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3643234937,
+            "range": "± 1021894153",
             "unit": "ns/iter"
           }
         ]
