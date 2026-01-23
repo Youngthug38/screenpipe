@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769153724133,
+  "lastUpdate": 1769153791772,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -599,6 +599,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2874288145,
             "range": "± 305576710",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "8d502cbf11a52252b48b5c72dc49b7c05cd63a05",
+          "message": "ci: align standard rust ci dependencies with integration fixes",
+          "timestamp": "2026-01-23T08:19:13+01:00",
+          "tree_id": "2750c11f65aaccc874bda5a8803a2ff3e2f8db94",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/8d502cbf11a52252b48b5c72dc49b7c05cd63a05"
+        },
+        "date": 1769153791152,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4126124603,
+            "range": "± 1056428422",
             "unit": "ns/iter"
           }
         ]
