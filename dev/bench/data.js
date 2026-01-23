@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769153791772,
+  "lastUpdate": 1769153950699,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -629,6 +629,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4126124603,
             "range": "± 1056428422",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "2b7beebd459c6f075e311fcdce96b0c45585e406",
+          "message": "ci: fix libdbus-sys panic by adding libdbus-1-dev",
+          "timestamp": "2026-01-23T08:29:04+01:00",
+          "tree_id": "be37ec300442656479f2a890977986e733dcab45",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/2b7beebd459c6f075e311fcdce96b0c45585e406"
+        },
+        "date": 1769153950181,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2398311187,
+            "range": "± 278621254",
             "unit": "ns/iter"
           }
         ]
