@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769156223120,
+  "lastUpdate": 1769156444222,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -959,6 +959,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2814085437,
             "range": "± 431800642",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "540f611bff13258154f7c39bd75e72153e213711",
+          "message": "ci: fix benchmark syntax error by moving tee inside matrix cmd",
+          "timestamp": "2026-01-23T09:09:08+01:00",
+          "tree_id": "db43a7ce88bccb25811c014b6f4c504476e3a19c",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/540f611bff13258154f7c39bd75e72153e213711"
+        },
+        "date": 1769156443172,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2670361604,
+            "range": "± 212202347",
             "unit": "ns/iter"
           }
         ]
