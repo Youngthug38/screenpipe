@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769160216183,
+  "lastUpdate": 1769160995274,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1379,6 +1379,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2709391458,
             "range": "± 138034547",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "4596b45bd8fc17c7324a8ce7668e5f9217c56d30",
+          "message": "ci: fix powershell syntax while preserving full original logic",
+          "timestamp": "2026-01-23T10:24:29+01:00",
+          "tree_id": "0c6c0386ab5035672c6131c2cc31de0bdb4f9755",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/4596b45bd8fc17c7324a8ce7668e5f9217c56d30"
+        },
+        "date": 1769160994810,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4197966104,
+            "range": "± 590046743",
             "unit": "ns/iter"
           }
         ]
