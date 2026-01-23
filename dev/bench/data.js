@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769152507941,
+  "lastUpdate": 1769152752240,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -419,6 +419,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4181948500,
             "range": "± 709423992",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "f9fbcaf0858ba862d2896331acf9101be24cd3cc",
+          "message": "ci: fix e2e dependencies and force log creation",
+          "timestamp": "2026-01-23T08:04:02+01:00",
+          "tree_id": "88378153eb647656c8d1e94bfc76bacc40d1e404",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/f9fbcaf0858ba862d2896331acf9101be24cd3cc"
+        },
+        "date": 1769152751219,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4429193937,
+            "range": "± 703139404",
             "unit": "ns/iter"
           }
         ]
