@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769155005484,
+  "lastUpdate": 1769155198920,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -749,6 +749,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4515359458,
             "range": "± 841406429",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "009d2ab51e3c003ddbe608aa80ec74e48085329e",
+          "message": "ci: add libdbus-1-dev and clang to fix final ubuntu panic",
+          "timestamp": "2026-01-23T08:41:15+01:00",
+          "tree_id": "4c16cf77d6c2fce6eddd374e403f6000661010ef",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/009d2ab51e3c003ddbe608aa80ec74e48085329e"
+        },
+        "date": 1769155198226,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3604886771,
+            "range": "± 1207500517",
             "unit": "ns/iter"
           }
         ]
