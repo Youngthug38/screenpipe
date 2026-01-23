@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769155616643,
+  "lastUpdate": 1769156095237,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -869,6 +869,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3549593542,
             "range": "± 796630286",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "5661b6ad856991225f2576d3ff68b2e228ce230e",
+          "message": "ci: remove broken backslash in benchmark command",
+          "timestamp": "2026-01-23T09:02:47+01:00",
+          "tree_id": "6eb884a47e084e278f876caa1893b9ae5ce51d0a",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/5661b6ad856991225f2576d3ff68b2e228ce230e"
+        },
+        "date": 1769156094163,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3275745958,
+            "range": "± 613999915",
             "unit": "ns/iter"
           }
         ]
