@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769288493293,
+  "lastUpdate": 1769288684785,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1949,6 +1949,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3760490583,
             "range": "± 411298046",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "91b14155d886c988bb3a060b9aabc40461351dc8",
+          "message": "ci: copy bun sidecar binary for windows tauri build",
+          "timestamp": "2026-01-24T21:52:57+01:00",
+          "tree_id": "5eb84bf47e7753482f635f64d6a47631334f36e5",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/91b14155d886c988bb3a060b9aabc40461351dc8"
+        },
+        "date": 1769288683634,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2900165562,
+            "range": "± 743290513",
             "unit": "ns/iter"
           }
         ]
