@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769282814576,
+  "lastUpdate": 1769282952927,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1709,6 +1709,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3114395520,
             "range": "± 324533293",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "22b482d4c67660cbdd2d5689a6f70cc8ce42749b",
+          "message": "ci: fix openssl linux dep and bypass macos i8mm hardware crash",
+          "timestamp": "2026-01-24T20:18:19+01:00",
+          "tree_id": "c7ec0a4ccc186db46bd883b3613f398d0845986a",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/22b482d4c67660cbdd2d5689a6f70cc8ce42749b"
+        },
+        "date": 1769282952236,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2604756562,
+            "range": "± 352126889",
             "unit": "ns/iter"
           }
         ]
