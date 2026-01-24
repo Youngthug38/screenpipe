@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769278754088,
+  "lastUpdate": 1769279151061,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1499,6 +1499,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3540566479,
             "range": "± 124286286",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "ed691ae9d04366e06016b4acb0cf45ed963e0a73",
+          "message": "ci: fix macos i8mm, windows debug linker, and linux test skips",
+          "timestamp": "2026-01-24T19:15:37+01:00",
+          "tree_id": "d05e9e119733496f21faacdaf6050f8d00161a01",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/ed691ae9d04366e06016b4acb0cf45ed963e0a73"
+        },
+        "date": 1769279150302,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2467194375,
+            "range": "± 182866403",
             "unit": "ns/iter"
           }
         ]
