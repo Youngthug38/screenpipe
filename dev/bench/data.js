@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769279151061,
+  "lastUpdate": 1769279657203,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1529,6 +1529,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2467194375,
             "range": "± 182866403",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "cc3981787d47f070f945e57b7a1f3c6316773245",
+          "message": "ci: disable flaky headless tests, enforce cargo check for stability",
+          "timestamp": "2026-01-24T19:23:44+01:00",
+          "tree_id": "7b9128dd9d0c0ecd6e2c50860fdd382568e354ef",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/cc3981787d47f070f945e57b7a1f3c6316773245"
+        },
+        "date": 1769279656100,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2539365667,
+            "range": "± 223962050",
             "unit": "ns/iter"
           }
         ]
