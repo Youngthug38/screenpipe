@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769286166833,
+  "lastUpdate": 1769286794403,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1859,6 +1859,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2491392312,
             "range": "± 499309131",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "25fb89987cd1707b009ce8441f2a621261a8b6df",
+          "message": "ci: fix windows cargo build command",
+          "timestamp": "2026-01-24T21:23:41+01:00",
+          "tree_id": "3cd904afd5a1c34b8da999077f97986d0293319a",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/25fb89987cd1707b009ce8441f2a621261a8b6df"
+        },
+        "date": 1769286793381,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2244652104,
+            "range": "± 250460286",
             "unit": "ns/iter"
           }
         ]
