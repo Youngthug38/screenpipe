@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769291289920,
+  "lastUpdate": 1769291926272,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2099,6 +2099,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2976415791,
             "range": "± 245006525",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "84d493b06fb0cb30ffbb281e543e649d5d69f22d",
+          "message": "fix: force cargo config update",
+          "timestamp": "2026-01-24T22:48:14+01:00",
+          "tree_id": "da0e1c7ef0e236e8ca87fd1d439b9e8f9ed2f546",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/84d493b06fb0cb30ffbb281e543e649d5d69f22d"
+        },
+        "date": 1769291925271,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2527164104,
+            "range": "± 333018312",
             "unit": "ns/iter"
           }
         ]
