@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769291926272,
+  "lastUpdate": 1769293855756,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2129,6 +2129,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2527164104,
             "range": "± 333018312",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "2a63875edb6c6e0d46622f0ccc103a5c4c6412b5",
+          "message": "fix: add NODEFAULTLIB for Windows + disable i8mm for Mac M1",
+          "timestamp": "2026-01-24T23:19:16+01:00",
+          "tree_id": "e84638d03b26f2e40a1ee385dbb1a649a950b1d6",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/2a63875edb6c6e0d46622f0ccc103a5c4c6412b5"
+        },
+        "date": 1769293854710,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2898468416,
+            "range": "± 286720674",
             "unit": "ns/iter"
           }
         ]
