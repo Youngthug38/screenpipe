@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769288684785,
+  "lastUpdate": 1769289623709,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1979,6 +1979,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2900165562,
             "range": "± 743290513",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "986cefbe8394fd98eed7a169f1af5dce49268f19",
+          "message": "fix: force M1 target for macOS builds to prevent i8mm crash",
+          "timestamp": "2026-01-24T22:05:51+01:00",
+          "tree_id": "7191280a6478223d6669e24423bd44b6fe5a4835",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/986cefbe8394fd98eed7a169f1af5dce49268f19"
+        },
+        "date": 1769289623078,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 4550132354,
+            "range": "± 601674302",
             "unit": "ns/iter"
           }
         ]
