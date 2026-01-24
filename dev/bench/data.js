@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769280765122,
+  "lastUpdate": 1769281407773,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1619,6 +1619,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2621293937,
             "range": "± 442074663",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "8d6eb5a6f10a131129ce26a9b31e04502cdd4a73",
+          "message": "fix: align tauri plugin versions to pass build check",
+          "timestamp": "2026-01-24T19:51:40+01:00",
+          "tree_id": "221c74b2e5b4109096fe87ae7d6e1ee368db49d9",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/8d6eb5a6f10a131129ce26a9b31e04502cdd4a73"
+        },
+        "date": 1769281407043,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3488878729,
+            "range": "± 854264580",
             "unit": "ns/iter"
           }
         ]
