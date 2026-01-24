@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769290027768,
+  "lastUpdate": 1769291289920,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2069,6 +2069,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3917678458,
             "range": "± 739232838",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "d747d19509d086f7ea9f7fbda3c1143c3f5938ea",
+          "message": "fix: remove conflicting Windows linker flags",
+          "timestamp": "2026-01-24T22:37:13+01:00",
+          "tree_id": "079d63a43a50dd96b289b1665954105a37f110fe",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/d747d19509d086f7ea9f7fbda3c1143c3f5938ea"
+        },
+        "date": 1769291289451,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2976415791,
+            "range": "± 245006525",
             "unit": "ns/iter"
           }
         ]
