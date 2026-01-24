@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769287679320,
+  "lastUpdate": 1769288493293,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1919,6 +1919,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2408970083,
             "range": "± 218714393",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "e26567bab4023d8e625786baa16329ad49818c0e",
+          "message": "ci: fix macos m1 chip error with cmake flags",
+          "timestamp": "2026-01-24T21:48:21+01:00",
+          "tree_id": "624b0e2649f1cf2b6e5fa518291812e4e3bf9b2d",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/e26567bab4023d8e625786baa16329ad49818c0e"
+        },
+        "date": 1769288492322,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3760490583,
+            "range": "± 411298046",
             "unit": "ns/iter"
           }
         ]
