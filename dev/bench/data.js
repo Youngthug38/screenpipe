@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769284262188,
+  "lastUpdate": 1769284757324,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1799,6 +1799,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3500942896,
             "range": "± 1169567703",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "7a6fa20aa4dd4e8e9900f08d90fbfb6adf9795bd",
+          "message": "ci: separate linux and macos build steps to fix m1 flag crash",
+          "timestamp": "2026-01-24T20:49:32+01:00",
+          "tree_id": "121f50487fc34b738a9d127e56abb96f534199ac",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/7a6fa20aa4dd4e8e9900f08d90fbfb6adf9795bd"
+        },
+        "date": 1769284756854,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2583419062,
+            "range": "± 303581297",
             "unit": "ns/iter"
           }
         ]
