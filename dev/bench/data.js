@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769283988426,
+  "lastUpdate": 1769284262188,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1769,6 +1769,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 5530354916,
             "range": "± 1490924149",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "1cc9bc6a36624829fbb46268751aadf329ef8633",
+          "message": "fix: add missing defaults to SECOND store instance in use-settings",
+          "timestamp": "2026-01-24T20:39:15+01:00",
+          "tree_id": "e97dc06cb737ec63a35bea0d943d43da9bb85a31",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/1cc9bc6a36624829fbb46268751aadf329ef8633"
+        },
+        "date": 1769284261571,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3500942896,
+            "range": "± 1169567703",
             "unit": "ns/iter"
           }
         ]
