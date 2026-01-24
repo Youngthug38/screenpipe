@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769295905906,
+  "lastUpdate": 1769297691012,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2249,6 +2249,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2703034667,
             "range": "± 441538088",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "578c10998cae0383be2f71942c5081a8e2d19d05",
+          "message": "Fix CI: CMake policy on macOS and MSVC CRT on Windows",
+          "timestamp": "2026-01-25T00:20:33+01:00",
+          "tree_id": "e922b438b56da757b518ab84b04fa0eaa67582b4",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/578c10998cae0383be2f71942c5081a8e2d19d05"
+        },
+        "date": 1769297690647,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2724690583,
+            "range": "± 449687898",
             "unit": "ns/iter"
           }
         ]
