@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769295317313,
+  "lastUpdate": 1769295905906,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2219,6 +2219,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2776569354,
             "range": "± 217861316",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "de70e95ba5f3673aca000641a8d134416d3a0b3b",
+          "message": "fix: set RUSTFLAGS in PowerShell before cargo build",
+          "timestamp": "2026-01-24T23:54:32+01:00",
+          "tree_id": "7c5dc1a4c4ea4c2ea5f42360efe69f9f1e0413ab",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/de70e95ba5f3673aca000641a8d134416d3a0b3b"
+        },
+        "date": 1769295905242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2703034667,
+            "range": "± 441538088",
             "unit": "ns/iter"
           }
         ]
