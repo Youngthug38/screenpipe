@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769289623709,
+  "lastUpdate": 1769289984060,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2009,6 +2009,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 4550132354,
             "range": "± 601674302",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "07d0d47b5995dc88a02c66b4ce9337ed7da1d8a2",
+          "message": "fix: correct TOML syntax in cargo config",
+          "timestamp": "2026-01-24T22:12:24+01:00",
+          "tree_id": "f5a527d78da99003e9d12ff66dc4365eaaf7199a",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/07d0d47b5995dc88a02c66b4ce9337ed7da1d8a2"
+        },
+        "date": 1769289983651,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3796795833,
+            "range": "± 886877435",
             "unit": "ns/iter"
           }
         ]
