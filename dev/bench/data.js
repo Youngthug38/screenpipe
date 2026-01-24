@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769161251565,
+  "lastUpdate": 1769278295353,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1439,6 +1439,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2750283125,
             "range": "± 224861767",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "7c88fd54c7cbadd9b064a52cc9eb0fdb7dedb6e4",
+          "message": "ci: nuclear fix for rust dbus-1 panic and windows ffmpeg crash",
+          "timestamp": "2026-01-24T18:57:28+01:00",
+          "tree_id": "e6f0a2c640e5a7a40ddf6fc598a1c4a928cf196d",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/7c88fd54c7cbadd9b064a52cc9eb0fdb7dedb6e4"
+        },
+        "date": 1769278294822,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3909989750,
+            "range": "± 613580077",
             "unit": "ns/iter"
           }
         ]
