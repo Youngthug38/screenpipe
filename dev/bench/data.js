@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769282221555,
+  "lastUpdate": 1769282814576,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1679,6 +1679,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2550332250,
             "range": "± 159302227",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "1492277899e5df99ee11d5a55c61369a84c2cadf",
+          "message": "fix: rename variables in use-profiles to fix ts build error",
+          "timestamp": "2026-01-24T20:14:53+01:00",
+          "tree_id": "73c905581fa50f0e564049d83b740e6c26b7d8aa",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/1492277899e5df99ee11d5a55c61369a84c2cadf"
+        },
+        "date": 1769282813927,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3114395520,
+            "range": "± 324533293",
             "unit": "ns/iter"
           }
         ]
