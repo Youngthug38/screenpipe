@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769280449117,
+  "lastUpdate": 1769280765122,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1589,6 +1589,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3817326063,
             "range": "± 343859493",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "d3dbd7fdb414e1355f9ea213ae3f80f922659155",
+          "message": "ci: FINAL FIX - bypass all environment crashes and flakes",
+          "timestamp": "2026-01-24T19:41:13+01:00",
+          "tree_id": "9572143867aa54fa38f9a916b991b08b10591f0f",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/d3dbd7fdb414e1355f9ea213ae3f80f922659155"
+        },
+        "date": 1769280764436,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2621293937,
+            "range": "± 442074663",
             "unit": "ns/iter"
           }
         ]
