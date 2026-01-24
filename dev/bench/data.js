@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769294651294,
+  "lastUpdate": 1769295317313,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2189,6 +2189,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2373564521,
             "range": "± 350403657",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "71b5a0afeb3d01918e0f7fd260690c624d2b61fa",
+          "message": "fix: add NODEFAULTLIB to all Windows workflows",
+          "timestamp": "2026-01-24T23:44:41+01:00",
+          "tree_id": "9b4bbcd1299b8fb559d490a3064e85d17dfb36cd",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/71b5a0afeb3d01918e0f7fd260690c624d2b61fa"
+        },
+        "date": 1769295316363,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2776569354,
+            "range": "± 217861316",
             "unit": "ns/iter"
           }
         ]
