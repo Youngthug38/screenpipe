@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769284757324,
+  "lastUpdate": 1769286166833,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1829,6 +1829,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2583419062,
             "range": "± 303581297",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "80c9ccfb02436600c43181256f321591de47c738",
+          "message": "ci: build and copy real backend binary for windows e2e tests",
+          "timestamp": "2026-01-24T21:13:09+01:00",
+          "tree_id": "e29c727211c83cc58c817e1bbdd2e3170f9f86e1",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/80c9ccfb02436600c43181256f321591de47c738"
+        },
+        "date": 1769286166238,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2491392312,
+            "range": "± 499309131",
             "unit": "ns/iter"
           }
         ]
