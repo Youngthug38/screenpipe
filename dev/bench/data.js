@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769281407773,
+  "lastUpdate": 1769282221555,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1649,6 +1649,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3488878729,
             "range": "± 854264580",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "55b2360da8719b0231a09b51e6b18357317dbe89",
+          "message": "fix: resolve ts-node store options error and macos i8mm flags",
+          "timestamp": "2026-01-24T20:06:13+01:00",
+          "tree_id": "ecb0bcd68153e10e6c5ec26a47ac2c8d60a8d7d3",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/55b2360da8719b0231a09b51e6b18357317dbe89"
+        },
+        "date": 1769282221025,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 2550332250,
+            "range": "± 159302227",
             "unit": "ns/iter"
           }
         ]
