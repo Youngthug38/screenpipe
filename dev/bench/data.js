@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769282952927,
+  "lastUpdate": 1769283988426,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -1739,6 +1739,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 2604756562,
             "range": "± 352126889",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "83a4fbb0b5fb6ed98f6072e01d66066a0f216ab1",
+          "message": "fix: add missing defaults to use-settings store to fix ts build",
+          "timestamp": "2026-01-24T20:25:37+01:00",
+          "tree_id": "5813ebcb97ab22097b49d71e231549b609d87d77",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/83a4fbb0b5fb6ed98f6072e01d66066a0f216ab1"
+        },
+        "date": 1769283987892,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 5530354916,
+            "range": "± 1490924149",
             "unit": "ns/iter"
           }
         ]
