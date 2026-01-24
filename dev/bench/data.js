@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769289984060,
+  "lastUpdate": 1769290027768,
   "repoUrl": "https://github.com/Youngthug38/screenpipe",
   "entries": {
     "OCR Benchmarks": [
@@ -2039,6 +2039,36 @@ window.BENCHMARK_DATA = {
             "name": "Apple Vision OCR/Performance/",
             "value": 3796795833,
             "range": "± 886877435",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "committer": {
+            "email": "mrmousawi@hotmail.com",
+            "name": "Youngthug38",
+            "username": "Youngthug38"
+          },
+          "distinct": true,
+          "id": "1658c873c78f790ad686f7b4b84f30987a8a78b6",
+          "message": "fix: add CMAKE_POLICY_VERSION_MINIMUM for libsamplerate-sys",
+          "timestamp": "2026-01-24T22:16:50+01:00",
+          "tree_id": "7a2196e48de742c457634ffbba8463ea21518b0d",
+          "url": "https://github.com/Youngthug38/screenpipe/commit/1658c873c78f790ad686f7b4b84f30987a8a78b6"
+        },
+        "date": 1769290026775,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Apple Vision OCR/Performance/",
+            "value": 3917678458,
+            "range": "± 739232838",
             "unit": "ns/iter"
           }
         ]
